@@ -1,0 +1,184 @@
+[OutputJobFile]
+Version=1.0
+Caption=BOM Output Job
+Description=
+VaultGUID=
+ItemGUID=
+ItemHRID=
+RevisionGUID=
+RevisionId=
+VaultHRID=Concord PRO
+AutoItemHRID=
+NextRevId=
+FolderGUID=
+LifeCycleDefinitionGUID=
+RevisionNamingSchemeGUID=
+
+[OutputGroup1]
+Name=Validation.OutJob
+Description=
+TargetOutputMedium=Footprint Comparison Check
+VariantName=[No Variations]
+VariantScope=1
+CurrentConfigurationName=
+TargetPrinter=\\PS01\Kyocera ECOSYS M4125idn KX - 2 этаж у лестницы
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputMedium1=Workspace Check
+OutputMedium1_Type=GeneratedFiles
+OutputMedium2=Electrical Rules Check
+OutputMedium2_Type=GeneratedFiles
+OutputMedium3=Design Rules Check
+OutputMedium3_Type=GeneratedFiles
+OutputMedium4=Footprint Comparison Check
+OutputMedium4_Type=GeneratedFiles
+OutputType1=Configuration compliance
+OutputName1=Environment configuration compliance check
+OutputCategory1=Validation
+OutputDocumentPath1=
+OutputVariantName1=
+OutputEnabled1=0
+OutputEnabled1_OutputMedium1=1
+OutputEnabled1_OutputMedium2=0
+OutputEnabled1_OutputMedium3=0
+OutputEnabled1_OutputMedium4=0
+OutputDefault1=0
+Configuration1_Name1=OutputConfigurationParameter1
+Configuration1_Item1=AllFromVault=True|Prefernces=&&&&|Record=EnvironmentReportView|Template0=F970B0C1-964C-4F82-B064-D844673AAA1E&Concord PRO&93F1F1A0-6BBC-4CEA-B840-5504EDEC9295&VCH_BASE_SCHT_0000001-1&|UseOutJob=False|UsePrefernces=True|UseTemplate=False|DocumentPath=[Project]
+OutputType2=Electrical Rules Check
+OutputName2=Electrical Rules Check
+OutputCategory2=Validation
+OutputDocumentPath2=
+OutputVariantName2=
+OutputEnabled2=0
+OutputEnabled2_OutputMedium1=0
+OutputEnabled2_OutputMedium2=1
+OutputEnabled2_OutputMedium3=0
+OutputEnabled2_OutputMedium4=0
+OutputDefault2=0
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration2_Name1=OutputConfigurationParameter1
+Configuration2_Item1=ERCClassColumnOrder=0|ERCClassColumnSort=0|ERCClassColumnVisibility=True|ERCConnectionMatrixL1=NNNNNNNNNNNWNNNWW|ERCConnectionMatrixL10=NWNNNNNENNEWNNEWN|ERCConnectionMatrixL11=NNENNNNEEENWNENWN|ERCConnectionMatrixL12=WWWWNWWNWWWNWWWNN|ERCConnectionMatrixL13=NNNNNNNNNNNWNNNWW|ERCConnectionMatrixL14=NWEENEEEENEWNEEWW|ERCConnectionMatrixL15=NNENNNNEEENWNENWW|ERCConnectionMatrixL16=WWWWNWWNWWWNWWWNW|ERCConnectionMatrixL17=WNNNNNNNWNNNWWWWN|ERCConnectionMatrixL2=NNWNNNNWWWNWNWNWN|ERCConnectionMatrixL3=NWEENEEEENEWNEEWN|ERCConnectionMatrixL4=NNENNNWEENNWNENWN|ERCConnectionMatrixL5=NNNNNNNNNNNNNNNNN|ERCConnectionMatrixL6=NNENNNNEENNWNENWN|ERCConnectionMatrixL7=NNEWNNWEENNWNENWN|ERCConnectionMatrixL8=NWEENEENEEENNEENN|ERCConnectionMatrixL9=NWEENEEEENEWNEEWW|ERCDocumentColumnOrder=1|ERCDocumentColumnSort=0|ERCDocumentColumnVisibility=True|ERCMessageColumnOrder=2|ERCMessageColumnSort=0|ERCMessageColumnVisibility=True|ERCReportGrouping=2|ERCReportMode=0|ERCReportSuppressedErrors=False|ERCType1=1|ERCType10=1|ERCType100=2|ERCType101=0|ERCType102=2|ERCType103=2|ERCType104=1|ERCType105=2|ERCType106=2|ERCType107=2|ERCType108=2|ERCType109=1|ERCType11=2|ERCType110=1|ERCType111=1|ERCType112=1|ERCType113=1|ERCType114=2|ERCType115=2|ERCType116=2|ERCType117=3|ERCType118=3|ERCType119=3|ERCType12=2|ERCType120=2|ERCType121=3|ERCType122=2|ERCType123=1|ERCType124=1|ERCType125=1|ERCType126=1|ERCType13=2|ERCType14=1|ERCType15=1|ERCType16=1|ERCType17=1|ERCType18=1|ERCType19=1|ERCType2=1|ERCType20=0|ERCType21=0|ERCType22=0|ERCType23=0|ERCType24=1|ERCType25=2|ERCType26=0|ERCType27=2|ERCType28=1|ERCType29=1|ERCType3=2|ERCType30=1|ERCType31=1|ERCType32=2|ERCType33=0|ERCType34=2|ERCType35=1|ERCType36=2|ERCType37=1|ERCType38=2|ERCType39=2|ERCType4=1|ERCType40=2|ERCType41=0|ERCType42=2|ERCType43=1|ERCType44=0|ERCType45=0|ERCType46=0|ERCType47=0|ERCType48=0|ERCType49=0|ERCType5=2|ERCType50=2|ERCType51=0|ERCType52=0|ERCType53=1|ERCType54=1|ERCType55=1|ERCType56=2|ERCType57=1|ERCType58=1|ERCType59=2|ERCType6=2|ERCType60=0|ERCType61=0|ERCType62=0|ERCType63=0|ERCType64=0|ERCType65=2|ERCType66=3|ERCType67=2|ERCType68=2|ERCType69=0|ERCType7=0|ERCType70=2|ERCType71=2|ERCType72=2|ERCType73=2|ERCType74=1|ERCType75=2|ERCType76=1|ERCType77=1|ERCType78=1|ERCType79=1|ERCType8=1|ERCType80=2|ERCType81=3|ERCType82=3|ERCType83=3|ERCType84=3|ERCType85=3|ERCType86=2|ERCType87=2|ERCType88=2|ERCType89=1|ERCType9=1|ERCType90=1|ERCType91=3|ERCType92=3|ERCType93=2|ERCType94=2|ERCType95=2|ERCType96=2|ERCType97=2|ERCType98=0|ERCType99=1|ERCValidationErrorLevel=1|Record=ERCReportView|DocumentPath=[Project]
+OutputType3=Design Rules Check
+OutputName3=Design Rules Check
+OutputCategory3=Validation
+OutputDocumentPath3=
+OutputVariantName3=
+OutputEnabled3=0
+OutputEnabled3_OutputMedium1=0
+OutputEnabled3_OutputMedium2=0
+OutputEnabled3_OutputMedium3=1
+OutputEnabled3_OutputMedium4=0
+OutputDefault3=0
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration3_Name1=OutputConfigurationParameter1
+Configuration3_Item1=rillDrawingLayerPair0_Backdrill=False|UncheckPlotDrillDrawingLayerPair0_Checked=False|UncheckPlotDrillDrawingLayerPair0_DrillType=Regular|UncheckPlotDrillDrawingLayerPair0_FileName=PCB.GD1|UncheckPlotDrillDrawingLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillDrawingLayerPair0_LowLayer=Top Layer|UncheckPlotDrillGuideLayerPair0_Backdrill=False|UncheckPlotDrillGuideLayerPair0_Checked=False|UncheckPlotDrillGuideLayerPair0_DrillType=Regular|UncheckPlotDrillGuideLayerPair0_FileName=PCB.GG1|UncheckPlotDrillGuideLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillGuideLayerPair0_LowLayer=Top Layer|UserLayerN?me.Caption0=PCB?GKO|UserLayerNa?e.Caption1=PCB.?TP|UserLayerName.Caption10=PCB.GBS|UserLayerName.Caption11=PCB.GM6|UserLayerName.Caption12=PCB.GM16|UserLayerName.Caption13=PCB.GBL|UserLayerName.Caption14=PCB.GM5|UserLayerName.Caption15=PCB.GM15|UserLayerName.Caption16=PCB.GTL|UserLayerName.Caption17=PCB.GBO|UserLayerName.Caption18=PCB.GPT|UserLayerName.Caption19=PCB.GM9|UserLayerName.Caption2=PCB.GTO|UserLayerName.Caption20=PCB.GM11|UserLayerName.Caption21=PCB.GM1|UserLayerName.Caption22=PCB.GM8|UserLayerName.Caption23=PCB.GM3|UserLayerName.Caption24=PCB.GBP|UserLayerName.Caption3=PCB.GTS|UserLayerName.Caption4=PCB.GM4|UserLayerName.Caption5=PCB.GM2|UserLayerName.Caption6=PCB.GM12|UserLayerName.Caption7=PCB.GPB|UserLayerName.Caption8=PCB.GM10|UserLayerName.Caption9=PCB.GM7|UserLayerName.Count=25|UserLayerName.Layer0=16973837|UserLayerName.Layer1=16973832|UserLayerName.Layer10=16973835|UserLayerName.Layer11=16908294|UserLayerName.Layer12=16908304|UserLayerName.Layer13=16842751|UserLayerName.Layer14=16908293|UserLayerName.Layer15=16908303|UserLayerName.Layer16=16777217|UserLayerName.Layer17=16973831|UserLayerName.Layer18=16973848|UserLayerName.Layer19=16908297|UserLayerName.Layer2=16973830|UserLayerName.Layer20=16908299|UserLayerName.Layer21=16908289|UserLayerName.Layer22=16908296|UserLayerName.Layer23=16908291|UserLayerName.Layer24=16973833|UserLayerName.Layer3=16973834|UserLayerName.L?yer4=16908292|UserLayerName.Layer5=16908290|UserLayerName.Layer6=16908300|UserLayerName.Layer7=16973849|UserLayerName.Layer8=16908298|UserLayerName.Layer9=16908295|DocumentPath=C:\Users\d.andreev\Documents\Altium\Projects\Front_Panel_HMI_PCB-VCH01.1000.1300.00\1_Altium_PcbDoc\PCB.PcbDoc
+OutputType4=Footprint Comparison Report
+OutputName4=Footprint Comparison Report
+OutputCategory4=Validation
+OutputDocumentPath4=
+OutputVariantName4=
+OutputEnabled4=1
+OutputEnabled4_OutputMedium1=0
+OutputEnabled4_OutputMedium2=0
+OutputEnabled4_OutputMedium3=0
+OutputEnabled4_OutputMedium4=1
+OutputDefault4=0
+Configuration4_Name1=OutputConfigurationParameter1
+Configuration4_Item1=Board=True|Bottom 3D Body=True|Bottom Component Center=True|Bottom Component Outline=True|Bottom Courtyard=True|Bottom Designator=True|Bottom Layer=True|Bottom Overlay=False|Bottom Paste=True|Bottom Solder=True|Dimensions=True|Drill Drawing=True|Drill Guide=True|Int1=True|Int2=True|Keep-Out Layer=True|Multi-Layer=True|Pad Holes=True|Record=TUpdateFromPCBLibrariesSettings|RFU=True|RFU=True|Top 3D Body=True|Top Component Center=True|Top Component Outline=True|Top Courtyard=True|Top Designator=True|Top Layer=True|Top Overlay=False|Top Paste=True|Top Solder=True|Via Holes=True|DocumentPath=C:\Users\d.andreev\Documents\Altium\AD22.6.1\Router_HL7621\2_Altium_PcbDoc\PCB.PcbDoc
+
+[PublishSettings]
+OutputFilePath1=C:\Users\Public\Documents\Altium\Front_Panel_Interface_PCB-VCH01.1000.1200.00\Project Outputs for Front_Panel_Interface_PCB-VCH01.1000.1200.00\Validation\
+ReleaseManaged1=1
+OutputBasePath1=Project Outputs for TemplateProject
+OutputPathMedia1=Validation
+OutputPathMediaValue1=Validation
+OutputPathOutputer1=[Output Name]
+OutputPathOutputerPrefix1=
+OutputPathOutputerValue1=
+OutputFileName1=
+OutputFileNameMulti1==ProjectName+'-'+ItemRevision+ '_Workspace_Check'
+UseOutputNameForMulti1=0
+OutputFileNameSpecial1=
+OpenOutput1=1
+OutputFilePath2=C:\Users\Public\Documents\Altium\Front_Panel_Interface_PCB-VCH01.1000.1200.00\Project Outputs for Front_Panel_Interface_PCB-VCH01.1000.1200.00\Validation\
+ReleaseManaged2=1
+OutputBasePath2=Project Outputs for TemplateProject
+OutputPathMedia2=Validation
+OutputPathMediaValue2=Validation
+OutputPathOutputer2=[Output Name]
+OutputPathOutputerPrefix2=
+OutputPathOutputerValue2=
+OutputFileName2=
+OutputFileNameMulti2==ProjectName+'-'+ItemRevision+ '_Electrical_Rules_Check'
+UseOutputNameForMulti2=0
+OutputFileNameSpecial2=
+OpenOutput2=1
+OutputFilePath3=C:\Users\Public\Documents\Altium\Front_Panel_Interface_PCB-VCH01.1000.1200.00\Project Outputs for Front_Panel_Interface_PCB-VCH01.1000.1200.00\Validation\
+ReleaseManaged3=1
+OutputBasePath3=Project Outputs for TemplateProject
+OutputPathMedia3=Validation
+OutputPathMediaValue3=Validation
+OutputPathOutputer3=[Output Name]
+OutputPathOutputerPrefix3=
+OutputPathOutputerValue3=Supply
+OutputFileName3=
+OutputFileNameMulti3==ProjectName+'-'+ItemRevision + '_Design_Rules_Check'
+UseOutputNameForMulti3=0
+OutputFileNameSpecial3=
+OpenOutput3=1
+OutputFilePath4=C:\Users\d.andreev\Documents\Altium\AD22.6.1\Router_HL7621\Project Outputs for Шаблон\Validation\
+ReleaseManaged4=1
+OutputBasePath4=Project Outputs for TemplateProject
+OutputPathMedia4=Validation
+OutputPathMediaValue4=Validation
+OutputPathOutputer4=[Output Name]
+OutputPathOutputerPrefix4=
+OutputPathOutputerValue4=
+OutputFileName4=
+OutputFileNameMulti4==ProjectName+'-'+ItemRevision+ '_Footprint_Comparison_Report'
+UseOutputNameForMulti4=0
+OutputFileNameSpecial4=
+OpenOutput4=1
+
+[GeneratedFilesSettings]
+RelativeOutputPath1=C:\Users\Public\Documents\Altium\Front_Panel_Interface_PCB-VCH01.1000.1200.00\Project Outputs for Front_Panel_Interface_PCB-VCH01.1000.1200.00\Validation\
+OpenOutputs1=1
+AddToProject1=0
+TimestampFolder1=0
+UseOutputName1=0
+OpenODBOutput1=0
+OpenGerberOutput1=0
+OpenNCDrillOutput1=0
+OpenIPCOutput1=0
+EnableReload1=0
+RelativeOutputPath2=C:\Users\Public\Documents\Altium\Front_Panel_Interface_PCB-VCH01.1000.1200.00\Project Outputs for Front_Panel_Interface_PCB-VCH01.1000.1200.00\Validation\
+OpenOutputs2=1
+AddToProject2=0
+TimestampFolder2=0
+UseOutputName2=0
+OpenODBOutput2=0
+OpenGerberOutput2=0
+OpenNCDrillOutput2=0
+OpenIPCOutput2=0
+EnableReload2=0
+RelativeOutputPath3=C:\Users\Public\Documents\Altium\Front_Panel_Interface_PCB-VCH01.1000.1200.00\Project Outputs for Front_Panel_Interface_PCB-VCH01.1000.1200.00\Validation\
+OpenOutputs3=1
+AddToProject3=0
+TimestampFolder3=0
+UseOutputName3=0
+OpenODBOutput3=0
+OpenGerberOutput3=0
+OpenNCDrillOutput3=0
+OpenIPCOutput3=0
+EnableReload3=0
+RelativeOutputPath4=C:\Users\d.andreev\Documents\Altium\AD22.6.1\Router_HL7621\Project Outputs for Шаблон\Validation\
+OpenOutputs4=1
+AddToProject4=0
+TimestampFolder4=0
+UseOutputName4=0
+OpenODBOutput4=0
+OpenGerberOutput4=0
+OpenNCDrillOutput4=0
+OpenIPCOutput4=0
+EnableReload4=0
+
